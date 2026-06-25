@@ -1,4 +1,5 @@
 # 📈 Yield Curve Intelligence Dashboard
+https://yield-curve-intelligence-wt6bfhg49mt8krrwtegvju.streamlit.app/
 
 > **A fixed-income analytics dashboard built on FRED's T10Y2Y data — tracking yield curve dynamics, bond price sensitivity, rate trends, and credit stress from 2021 to 2026.**
 
