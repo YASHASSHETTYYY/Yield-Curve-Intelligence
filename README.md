@@ -132,8 +132,12 @@ Composite score derived from current HY spread level and inversion depth. Thresh
 
 ### Prerequisites
 
+To run this application, you need Python and the packages listed in `requirements.txt`.
+
+Install them using pip:
+
 ```bash
-pip install streamlit plotly pandas numpy
+pip install -r requirements.txt
 ```
 
 ### Launch
