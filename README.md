@@ -1,4 +1,4 @@
-# 📈 Yield Curve Intelligence Dashboard
+#  Yield Curve Intelligence Dashboard
 https://yield-curve-intelligence-wt6bfhg49mt8krrwtegvju.streamlit.app/
 
 > **A fixed-income analytics dashboard built on FRED's T10Y2Y data — tracking yield curve dynamics, bond price sensitivity, rate trends, and credit stress from 2021 to 2026.**
@@ -44,7 +44,7 @@ All derived columns are computed in `load_data()` and cached:
 | `hy_spread` | **Model-derived** — HY proxy with higher sensitivity to inversion depth |
 | `oas_spread` | Simple average of IG and HY proxies |
 
-> ⚠️ **Analyst Note:** `rate_2y`, `ig_spread`, and `hy_spread` are **synthetic approximations** built from the T10Y2Y spread alone. In a production environment you'd pull `DGS2`, `DGS10`, `BAMLC0A0CM` (IG OAS), and `BAMLH0A0HYM2` (HY OAS) separately from FRED. The proxies here preserve directional accuracy and correlation structure, not absolute level accuracy.
+>  **Analyst Note:** `rate_2y`, `ig_spread`, and `hy_spread` are **synthetic approximations** built from the T10Y2Y spread alone. In a production environment you'd pull `DGS2`, `DGS10`, `BAMLC0A0CM` (IG OAS), and `BAMLH0A0HYM2` (HY OAS) separately from FRED. The proxies here preserve directional accuracy and correlation structure, not absolute level accuracy.
 
 ---
 
